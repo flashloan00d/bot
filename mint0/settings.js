@@ -4,15 +4,15 @@ const infuraId = "2d17c41b0fa24c28a448a323d6c4cedf"     // Infuria Project ID | 
 const moralisApi = "GiphEKVq5WLdAxzrGyrF28IMtdOOxvguv0KLNEk6uyI3W0wpD6syAF8Som8lq0Wy"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "Tec.sellix.io",
-    title: "Tec MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "10.07.2022", // Today date
+    name: "WheezyNFT",
+    title: "Wheezy Collection ", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    date: "12.08.2022", // Today date
     socialMedia: {
         discord: "https://discord.gg/example",
         twitter: "https://twitter.com/example",
     },
     medias: {
-        preview: "preview.gif",
+        preview: "cc.gif",
         favicon: "logo.png",
     },
     background: {
@@ -23,7 +23,7 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.05,         // Price per NFT.
+    price: 0.01,         // Price per NFT.
     totalSupply: 200,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
     maxUnits: 5,        // Max units to buy.
