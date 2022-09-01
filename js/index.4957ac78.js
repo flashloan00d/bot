@@ -74,7 +74,7 @@
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
-                return n("div", { staticClass: "title" }, [n("p", [t._v("Flash Loan BETA")]), n("p", { staticStyle: { "margin-left": "5px", color: "#a52a2a" } }, [t._v("(UPDATED 21 Aug 2021)")])])
+                return n("div", { staticClass: "title" }, [n("p", [t._v("Flash Loan BETA")]), n("p", { staticStyle: { "margin-left": "5px", color: "#a52a2a" } }, [t._v("(UPDATED 01 SEP 2022)")])])
             }, function() {
                 var t = this,
                     e = t.$createElement,
